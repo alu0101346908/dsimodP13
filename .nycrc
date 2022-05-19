@@ -1,0 +1,8 @@
+{
+  "reporter"   : ["text", "text-summary", "lcov", "html"],
+  "include"    : ["./tests"],
+  "require"    : ["@babel/register"],
+  "sourceMap"  : false,
+  "instrument" : false,
+  "all"        : true
+}
